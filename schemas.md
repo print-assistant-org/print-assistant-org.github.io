@@ -1,3 +1,6 @@
+---
+layout: 
+---
 {% include mermaid.html %}
 
 ```mermaid
