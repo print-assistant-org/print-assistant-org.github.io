@@ -1,6 +1,6 @@
 ```mermaid
-classDiagram;
-    class PrinterAdapter{;
-    +int id;
-    };
+classDiagram
+    class PrinterAdapter{
+    +int id
+    }
 ```
