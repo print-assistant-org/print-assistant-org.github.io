@@ -1,6 +1,4 @@
----
-layout: mermaid
----
+{{ include mermaid.html }}
 
 ```mermaid
 classDiagram
