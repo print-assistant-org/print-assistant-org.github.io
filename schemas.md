@@ -7,6 +7,7 @@ title: test-mermaid
 classDiagram
     class IPrinter{
         <<interface>>
+        +bool Print()
     }
 
     class Printer{
@@ -14,11 +15,19 @@ classDiagram
     IPrinter <|..  Printer
 
     class printer_config{
-        +Printer printer
+        +IPrinter printer
         +File file
     }
-    printer_config --> Printer
+    Printer <-- printer_config 
 
+    class printing_task{
+        +int id
+        +printing_model model
+        +IPrinter printer
+    }
+    Printer <-- printing_task
+    printing_task <-- printing_model
+    
     class printing_model{
         +File file
     }
