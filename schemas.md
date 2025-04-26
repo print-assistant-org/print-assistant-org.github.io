@@ -1,4 +1,4 @@
-{% include _layouts/mermaid.html %}
+{% include mermaid.html %}
 
 ```mermaid
 classDiagram
