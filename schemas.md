@@ -1,4 +1,7 @@
-{% include mermaid.html %}
+---
+layout: mermaid
+title: test-mermaid
+---
 
 ```mermaid
 classDiagram
