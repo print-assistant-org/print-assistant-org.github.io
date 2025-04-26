@@ -1,5 +1,5 @@
 ---
-layout: mermaid.html
+layout: mermaid
 ---
 
 ```mermaid
